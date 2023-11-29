@@ -1,0 +1,57 @@
+h1{
+    margin-top: 4vh;
+    text-align: center;
+}
+
+form {
+    max-width: 100%;
+    margin: 20px;
+    text-align: left;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+
+.config-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.config-section {
+    flex: 1;
+    margin-right: 20px; /* Adicionado para dar um espaçamento entre as seções */
+}
+
+form h3 {
+    text-align: center;
+    color: #333;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+
+
+
+button#att {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#att:hover {
+    background-color: #555;
+}

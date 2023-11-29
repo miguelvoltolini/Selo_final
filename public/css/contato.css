@@ -1,0 +1,93 @@
+
+/*=============================================== TIRE DÚVIDAS ====*/
+
+#tire_duvidas{
+    margin-left: 100px;
+    margin-top: -50px;
+    width: 40%;
+}
+#tire_duvidas2{
+    margin-left: 53%;
+    margin-top: -72.5vh;
+    width: 40%;
+}
+
+h1#duv{
+    text-align: center;
+    margin-top: 15vh;
+}
+
+p#parag{
+    margin-top: 5vh;
+    text-align: center;
+    font-weight: 300;
+    color: #555555;
+}
+
+
+h1#h1nms{
+    font-size: 1rem;
+    margin-top: -6vh;
+    margin-left: 3vw;
+    color: #696969;
+    
+}
+h2#h2comp{
+    font-size: 1rem;
+    margin-left: 3vw;
+    font-weight: 300;
+    color: #555555;
+}
+
+
+input {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+input::placeholder{
+    position: absolute;
+    color: #C1C1C1;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+textarea#inp_grande {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+
+  textarea#inp_grande::placeholder{
+    position: absolute;
+    margin-top: 10px;
+    color: #C1C1C1;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+
+button#btn_form {
+    background-color: transparent;
+    color: #333;
+    padding: 8px; /* Espaçamento interno */
+    border: 1px solid #000; /* Adiciona uma borda preta fina */
+    width: 95%; /* Largura total */
+    box-sizing: border-box; /* Evita que as bordas adicionem à largura total */
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s; /* Transição suave */
+}
+
+button#btn_form:hover {
+    color: #fff;
+    background-color: #333; /* Preenche com a cor de fundo ao passar o mouse */
+    border-color: #555; /* Cor da borda ao passar o mouse */
+}
+
+img#icnteleff, img#icnwppp,  img#icnemaill, img#icnrelogioo{
+    margin-top: 3vh;
+    height: 5vh;
+    margin-left: 0px;
+}
