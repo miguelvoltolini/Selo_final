@@ -1,0 +1,13 @@
+id;nome;sobrenome;cpf;telefone;email;senha;tipo
+3;Giovana;Koslowski;77777777777;77777777777;giovana@gmail.com;$2b$10$AuALa9WBVt722Ef6ON5ug.gg08BDgGF8ojQVqXB5aD8hGTzryPvOy;cliente
+5;Miguel;Voltolini;99999999999;99999999999;miguel@gmail.com;$2b$10$ayNS49uiylM/xDITWrKRauzWbHSNKi9bFaGb6PZYOeK/D9NgHdnDK;adm
+6;Guilherme;Fortes;44444444444;44444444444;guilherme@gmail.com;$2b$10$oEyJIoTsgfWGlQ8zOLKGB..rCQyS/f3ymkCSD1JLBAl8omKZd7G.q;adm
+7;Maria;Josefina;12345678910;12345678910;josefina_maria@gmail.com;$2b$10$PiZqh4d3OrtxF7g4qcxi9ubzkLl0c8mDPPJ4zIFyoqgEoGaTgRMG2;cliente
+8;Maria;Josefina;12345678910;12345678910;josefina_maria@gmail.com;$2b$10$E4cefQV2eAZNBq0leuuk5.jj7eBUsyadP8G9L3KTEWw2fy30KfC32;cliente
+9;Arthur;Pimentel;0;0;arthur@gmail.com;$2b$10$oZvPmqXLZlRmnNpPc7/rIe.XOnukMC6D75WFec0Z3Z.4HRaI9I.Aq;cliente
+10;Neliana;Koslowski;55555555555;55555555555;neliana@gmail.com;$2b$10$ujSGhOUzdivxSyws6JIjFuYNUGDxDTM3/sEMbkpZIvzI0aKzVLHeW;cliente
+13;Claudia;Voltolini;88888888888;88888888888;claudia@gmail.com;$2b$10$6K3R300M08QrAD28OEOppenbi2cXYvAOqxWIti./ifB3Y82TDCMHW;cliente
+14;Claudia;Voltolini;88888888888;88888888888;claudia@gmail.com;$2b$10$RpiPXu/hvuoaReX0c/Up0.nEh/cj74LSY0jzDuV/ie728rT9spI9a;cliente
+18;Claudinei;Voltolini;4444445555;44444455555;claudinei@gmail.com;$2b$10$a/AXC6Xz6MfAnDAcaD1FHeDBm4NP35DzUbw8fR1AeHbPZjn4IIcsa;cliente
+19;Brunno;Pereira;77777777788;77777777788;brunno@gmail.com;$2b$10$yPXW4pgAFVCWWYrZTm1RtOly8Jk1y7GAjOu1/Su3ggtItfq4HeRoS;cliente
+;;;;;;;

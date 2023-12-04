@@ -1,0 +1,8 @@
+id;nome_produto;cod_produto;qtde_estoque;cor;tamanho;preco
+1;Camiseta Basica Preta;1;10;Preto;G;120
+2;Camiseta Basica Branca;2;14;Branco;M;120
+3;Teste;2;4;Branco;M;55
+4;Teste;2;4;Branco;M;55
+5;verificação;77777777;255;Azul Ciano;XGG;355.05
+7;meia;55;230;cinza claro;P;60
+;;;;;;
