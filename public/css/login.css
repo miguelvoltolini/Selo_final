@@ -85,7 +85,7 @@ main button.log:hover {
 .sistemaaa_nav nav a {
     display: block;
     margin-bottom: 10px;
-    margin-left: 540px;
+    margin-left: 480px;
     color: #333;
     text-decoration: none;
     border: 1px solid #000;
@@ -106,7 +106,8 @@ main button.log:hover {
 .sistema_nav {
     width: 50%;
     margin-top: 20px;
-    margin-left: 230px;
+    margin-left: 185px;
+    /* margin-left: 200px; */
     text-align: left;
 }
 
@@ -119,12 +120,12 @@ main button.log:hover {
     margin-bottom: 10px;
     color: #333;
     text-decoration: none;
-    border: 1px solid #535353; /* Adiciona uma borda preta fina */
+    border: 1px solid #535353; 
     padding: 8px; /* Espaçamento interno */
-    background-color: transparent; /* Fundo transparente */
-    width: 100%; /* Largura total */
-    box-sizing: border-box; /* Evita que as bordas adicionem à largura total */
-    transition: background-color 0.3s, border-color 0.3s; /* Transição suave */
+    background-color: transparent; 
+    width: 100%; 
+    box-sizing: border-box; 
+    transition: background-color 0.3s, border-color 0.3s; 
 }
 
 .sistema_nav nav a:hover {

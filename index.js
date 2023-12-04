@@ -141,7 +141,7 @@ app.get('/atualizar_produto', (req,res)=>{
     res.render('atualizar_produto', {log, adm, nomeAdm})
 })
 
-//=========================================listar usuario
+//========================================= listar usuario
 app.get('/login', async (req, res)=>{
     const pesq = await Usuario.findByPk(idUsuario, {raw:true})
     console.log(pesq)
@@ -242,8 +242,10 @@ app.post('/cadastrar_usuario', async (req, res)=>{
             
             log = true
             msg = 'Usuário cadastrado'
+            idUsuario = pesq.id
             
-            res.render('login', {log, msg, idUsuario, tipoUsuario, adm})
+            res.redirect('/login')
+            // res.render('login', {log, msg, idUsuario, tipoUsuario, adm})
         }catch(error){
             console.error('Erro ao criar novo cadastro '+ error)
             msg = 'Erro ao criar novo cadastro. Tente novamente.'
@@ -308,7 +310,7 @@ app.get('/logout', (req,res)=>{
     log = false
     idUsuario = ''
     nomeAdm = ''
-    res.render('login', {log, adm, nomeAdm})
+    res.render('login', {log, adm, nomeAdm, idUsuario})
 })
 
 app.get('/sistema', (req,res)=>{
